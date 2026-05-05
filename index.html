@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Protocolo Equilíbrio Hormonal — 21 Dias Para Se Reconhecer de Novo</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{font-family:'Segoe UI',sans-serif;background:#f8fdf9;color:#1a1a1a;line-height:1.7;}
+  a{color:inherit;text-decoration:none;}
+
+  .container{max-width:620px;margin:0 auto;padding:0 20px;}
+
+  /* HERO */
+  .hero{background:#E1F5EE;padding:48px 20px 40px;text-align:center;}
+  .hero-badge{display:inline-block;background:#9FE1CB;color:#04342C;font-size:12px;font-weight:600;padding:5px 16px;border-radius:20px;margin-bottom:18px;letter-spacing:0.04em;}
+  .hero h1{font-size:26px;font-weight:700;color:#04342C;line-height:1.4;margin-bottom:14px;}
+  .hero p{font-size:16px;color:#085041;line-height:1.7;margin-bottom:28px;max-width:520px;margin-left:auto;margin-right:auto;}
+  .price-box{background:#fff;border:1.5px solid #5DCAA5;border-radius:16px;padding:20px 24px;display:inline-block;margin-bottom:24px;min-width:220px;}
+  .price-de{font-size:13px;color:#0F6E56;text-decoration:line-through;}
+  .price-por{font-size:12px;color:#0F6E56;margin:2px 0;}
+  .price-valor{font-size:40px;font-weight:700;color:#04342C;}
+  .price-info{font-size:12px;color:#085041;margin-top:4px;}
+  .btn-cta{display:block;width:100%;max-width:480px;background:#1D9E75;color:#fff;border:none;border-radius:12px;padding:18px 24px;font-size:17px;font-weight:700;cursor:pointer;text-align:center;margin:0 auto 10px;transition:background .2s;}
+  .btn-cta:hover{background:#0F6E56;}
+  .safe-line{font-size:13px;color:#085041;text-align:center;}
+
+  /* SECTIONS */
+  .section{padding:48px 0;}
+  .section-label{font-size:11px;font-weight:600;color:#888;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:16px;}
+  .section h2{font-size:22px;font-weight:700;color:#1a1a1a;margin-bottom:20px;line-height:1.4;}
+
+  /* DOR */
+  .dor-list{list-style:none;display:flex;flex-direction:column;gap:10px;}
+  .dor-list li{background:#fff;border-left:4px solid #D85A30;padding:12px 16px;font-size:15px;color:#1a1a1a;line-height:1.6;border-radius:0 8px 8px 0;}
+  .dor-text{margin-top:20px;font-size:16px;color:#333;line-height:1.8;}
+
+  /* PRODUTO */
+  .produto-grid{display:flex;flex-direction:column;gap:12px;}
+  .produto-item{background:#fff;border:1px solid #e0f0e8;border-radius:14px;padding:16px 20px;display:flex;gap:16px;align-items:flex-start;}
+  .produto-icon{width:44px;height:44px;border-radius:10px;background:#E1F5EE;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:22px;}
+  .produto-item h3{font-size:15px;font-weight:600;color:#1a1a1a;margin-bottom:4px;}
+  .produto-item p{font-size:14px;color:#555;line-height:1.6;}
+  .bonus-badge{font-size:11px;font-weight:600;background:#FAEEDA;color:#633806;padding:2px 8px;border-radius:10px;display:inline-block;margin-bottom:6px;}
+
+  /* SEMANAS */
+  .semanas{display:flex;flex-direction:column;gap:16px;}
+  .semana{display:flex;gap:16px;align-items:flex-start;}
+  .semana-num{background:#EEEDFE;color:#3C3489;font-size:12px;font-weight:600;padding:5px 14px;border-radius:20px;white-space:nowrap;flex-shrink:0;margin-top:3px;}
+  .semana p{font-size:15px;color:#333;line-height:1.7;}
+
+  /* DEPOIMENTOS */
+  .depo-grid{display:flex;flex-direction:column;gap:14px;}
+  .depo{background:#fff;border:1px solid #e8e8e8;border-radius:14px;padding:18px 20px;}
+  .stars{color:#BA7517;font-size:15px;letter-spacing:3px;margin-bottom:8px;}
+  .depo blockquote{font-size:15px;color:#1a1a1a;line-height:1.8;font-style:italic;margin-bottom:10px;}
+  .depo-name{font-size:13px;font-weight:600;color:#888;}
+
+  /* AUTHOR */
+  .author{background:#f0faf5;border-radius:16px;padding:24px;display:flex;gap:18px;align-items:flex-start;}
+  .author-av{width:60px;height:60px;border-radius:50%;background:#9FE1CB;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:20px;font-weight:700;color:#04342C;}
+  .author h3{font-size:16px;font-weight:700;color:#1a1a1a;margin-bottom:4px;}
+  .author p{font-size:14px;color:#444;line-height:1.7;}
+
+  /* GARANTIA */
+  .garantia{background:#EEEDFE;border-radius:16px;padding:28px;text-align:center;}
+  .garantia h2{font-size:20px;font-weight:700;color:#3C3489;margin-bottom:10px;}
+  .garantia p{font-size:15px;color:#534AB7;line-height:1.7;}
+
+  /* FAQ */
+  .faq{display:flex;flex-direction:column;}
+  .faq-item{border-bottom:1px solid #eee;padding:18px 0;}
+  .faq-item h3{font-size:15px;font-weight:600;color:#1a1a1a;margin-bottom:6px;}
+  .faq-item p{font-size:14px;color:#555;line-height:1.7;}
+
+  /* URGENCIA */
+  .urgencia{background:#FAECE7;border-radius:12px;padding:16px 20px;font-size:14px;color:#712B13;text-align:center;line-height:1.6;margin-bottom:20px;}
+
+  /* FOOTER */
+  .footer{padding:32px 20px;text-align:center;font-size:12px;color:#aaa;line-height:1.8;border-top:1px solid #e8e8e8;}
+
+  /* DIVIDER */
+  .divider{height:1px;background:#e8f5ee;margin:0;}
+
+  @media(max-width:480px){
+    .hero h1{font-size:21px;}
+    .author{flex-direction:column;}
+  }
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="container">
+    <div class="hero-badge">Protocolo Digital — Acesso Imediato</div>
+    <h1>Protocolo Equilíbrio Hormonal<br>21 Dias Para Se Reconhecer de Novo</h1>
+    <p>Para mulheres que estão cansadas de não dormir, de suar sem parar e de se sentir uma estranha no próprio corpo — existe uma saída natural, simples e que funciona.</p>
+    <div class="price-box">
+      <div class="price-de">De R$ 97,00</div>
+      <div class="price-por">Por apenas</div>
+      <div class="price-valor">R$ 37,00</div>
+      <div class="price-info">pagamento único · acesso vitalício</div>
+    </div>
+    <br>
+    <a href="https://go.hotmart.com/G105694094W" class="btn-cta">Quero me reconhecer de novo — R$ 37,00</a>
+    <div class="safe-line">🔒 Garantia de 7 dias · Sem risco · Acesso imediato após o pagamento</div>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- DOR -->
+<div class="section">
+  <div class="container">
+    <div class="section-label">Você se reconhece nisso?</div>
+    <ul class="dor-list">
+      <li>Você acorda às 3h ou 4h da manhã encharcada de suor e não consegue mais dormir.</li>
+      <li>Você engordou sem comer nada diferente — e ninguém sabe te explicar por quê.</li>
+      <li>Seu humor muda do zero para cem sem aviso. Você chora e nem sabe o motivo.</li>
+      <li>Você sente um cansaço que não passa — nem no fim de semana, nem depois de dormir.</li>
+      <li>Você já tentou de tudo e nada funcionou de verdade. E está começando a achar que é assim mesmo.</li>
+    </ul>
+    <p class="dor-text">Não é fraqueza. Não é sua cabeça. São seus hormônios pedindo socorro — e a boa notícia é que dá pra regular isso com alimentos e plantas que você já tem em casa.</p>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- PRODUTO -->
+<div class="section">
+  <div class="container">
+    <div class="section-label">O que você vai receber</div>
+    <div class="produto-grid">
+      <div class="produto-item">
+        <div class="produto-icon">📖</div>
+        <div>
+          <h3>E-book completo (42 páginas)</h3>
+          <p>Guia passo a passo com alimentação hormonal, lista de alimentos proibidos e permitidos e o protocolo diário dos 21 dias.</p>
+        </div>
+      </div>
+      <div class="produto-item">
+        <div class="produto-icon">🌿</div>
+        <div>
+          <h3>Guia dos 5 chás hormonais</h3>
+          <p>Quais chás tomar, em qual horário, como preparar e por que cada um age no equilíbrio hormonal feminino.</p>
+        </div>
+      </div>
+      <div class="produto-item">
+        <div class="produto-icon">💬</div>
+        <div>
+          <h3>Acesso ao grupo no Telegram (30 dias)</h3>
+          <p>Suporte da Ana Beatriz e de mulheres que estão na mesma jornada. Dúvidas respondidas, motivação e acompanhamento diário.</p>
+        </div>
+      </div>
+      <div class="produto-item">
+        <div class="produto-icon">🎁</div>
+        <div>
+          <div class="bonus-badge">BÔNUS</div>
+          <h3>Cardápio anti-inflamatório de 7 dias</h3>
+          <p>Cardápio pronto, com ingredientes simples e de mercado, que reduz a inflamação e acelera o reequilíbrio hormonal.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- SEMANAS -->
+<div class="section">
+  <div class="container">
+    <div class="section-label">O que acontece semana a semana</div>
+    <div class="semanas">
+      <div class="semana">
+        <div class="semana-num">Semana 1</div>
+        <p>O sono já começa a melhorar. Os chás e a alimentação reduzem o cortisol noturno. Você começa a acordar menos durante a noite — alguns dias vai dormir a noite toda pela primeira vez em meses.</p>
+      </div>
+      <div class="semana">
+        <div class="semana-num">Semana 2</div>
+        <p>As ondas de calor ficam menos frequentes e menos intensas. O inchaço começa a ceder. Você se sente mais leve — no corpo e no humor.</p>
+      </div>
+      <div class="semana">
+        <div class="semana-num">Semana 3</div>
+        <p>O humor estabiliza. Você percebe que está mais paciente, mais presente, mais você. As pessoas ao redor notam antes de você perceber. Esse é o sinal de que seus hormônios estão se encontrando de novo.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- DEPOIMENTOS -->
+<div class="section">
+  <div class="container">
+    <div class="section-label">O que elas estão dizendo</div>
+    <div class="depo-grid">
+      <div class="depo">
+        <div class="stars">★★★★★</div>
+        <blockquote>"Eu tinha desistido de me sentir bem. Achava que era assim mesmo depois dos 50. Em 21 dias eu dormi a noite toda pela primeira vez em três anos. Chorei de alegria."</blockquote>
+        <div class="depo-name">Maria das Graças, 53 anos — Belo Horizonte/MG</div>
+      </div>
+      <div class="depo">
+        <div class="stars">★★★★★</div>
+        <blockquote>"Já tinha tentado reposição hormonal e parei por causa dos efeitos colaterais. O protocolo da Ana Beatriz foi a primeira coisa que funcionou de verdade — e sem nenhum remédio."</blockquote>
+        <div class="depo-name">Claudia R., 49 anos — São Paulo/SP</div>
+      </div>
+      <div class="depo">
+        <div class="stars">★★★★★</div>
+        <blockquote>"Na terceira semana meu marido perguntou o que eu tinha feito — estava mais alegre e disposta. R$ 37 foi o melhor dinheiro que gastei esse ano."</blockquote>
+        <div class="depo-name">Rosângela M., 51 anos — Curitiba/PR</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- AUTHOR -->
+<div class="section">
+  <div class="container">
+    <div class="author">
+      <div class="author-av">AB</div>
+      <div>
+        <h3>Ana Beatriz — Nutricionista Funcional</h3>
+        <p>Especialista em nutrição hormonal feminina. Passou pela menopausa aos 48 anos, engordou 8kg, não dormia e chegou a achar que era fraqueza. Criou o Protocolo 21 Dias depois de estudar e aplicar em si mesma. Hoje acompanha centenas de mulheres nessa jornada.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- GARANTIA -->
+<div class="section">
+  <div class="container">
+    <div class="garantia">
+      <h2>🛡️ Garantia incondicional de 7 dias</h2>
+      <p>Se por qualquer motivo você não ficar satisfeita, basta enviar um e-mail em até 7 dias após a compra e devolvemos 100% do seu dinheiro. Sem perguntas, sem burocracia. O risco é todo nosso.</p>
+    </div>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- FAQ -->
+<div class="section">
+  <div class="container">
+    <div class="section-label">Perguntas frequentes</div>
+    <div class="faq">
+      <div class="faq-item">
+        <h3>Preciso de receita médica ou ser jovem para fazer isso?</h3>
+        <p>Não. O protocolo usa alimentos e chás naturais acessíveis a qualquer mulher. Não substitui acompanhamento médico, mas pode andar junto com ele.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Já estou na pós-menopausa. Funciona para mim?</h3>
+        <p>Sim. Muitas participantes já estavam na pós-menopausa e tiveram excelentes resultados, especialmente com sono, humor e energia.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Como vou receber o material?</h3>
+        <p>Imediatamente após o pagamento, você recebe um e-mail com o link para baixar o e-book em PDF e o link de acesso ao grupo do Telegram.</p>
+      </div>
+      <div class="faq-item">
+        <h3>E se eu não tiver resultado?</h3>
+        <p>Você tem 7 dias de garantia total. Se não ficar satisfeita, devolvemos cada centavo — sem questionamentos.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Precisa comprar ingredientes especiais?</h3>
+        <p>Não. Tudo que está no protocolo você encontra em qualquer mercado ou farmácia de bairro. Nada de suplemento caro ou ingrediente difícil.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CTA FINAL -->
+<div class="section" style="padding-top:0;">
+  <div class="container" style="text-align:center;">
+    <div class="urgencia">⏳ As vagas do grupo no Telegram são limitadas a 50 mulheres por turma. Ao garantir agora, você entra na turma atual.</div>
+    <div class="price-box" style="display:block;margin-bottom:20px;">
+      <div class="price-de">De R$ 97,00</div>
+      <div class="price-por">Por apenas</div>
+      <div class="price-valor">R$ 37,00</div>
+      <div class="price-info">pagamento único · acesso vitalício · garantia de 7 dias</div>
+    </div>
+    <a href="SEU_LINK_AQUI" class="btn-cta">Quero o Protocolo Equilíbrio Hormonal agora</a>
+    <div class="safe-line" style="margin-top:10px;">🔒 Compra 100% segura · Acesso imediato · Sem risco</div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+  <div class="container">
+    © 2025 Ana Beatriz | Hormônios Femininos · Todos os direitos reservados<br>
+    Este produto é um infoproduto educacional. Não substitui consulta médica ou nutricional.<br>
+    Os resultados podem variar de pessoa para pessoa.
+  </div>
+</div>
+
+</body>
+</html>
